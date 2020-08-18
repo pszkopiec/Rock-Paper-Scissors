@@ -1,0 +1,75 @@
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: 'Lobster', cursive;
+
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20%;
+    font-family: 'Lobster', cursive;
+}
+
+.daButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgreen;
+    padding: 50px;  
+    border: 5px solid darkgreen;
+    color: rgb(168, 146, 20);
+    font-size: 25px;
+    box-shadow: 5px 5px gold;
+    font-weight: bold;
+    font-family:'Lobster', cursive;
+}
+
+.daButton:hover {
+    cursor: pointer;
+    color: rgb(33, 85, 33);
+    background-color: rgb(63, 175, 63);
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.daScoreKeeper {
+    position: absolute;
+    left: 50%;
+    top:75%;
+    transform: translate(-50%,0);
+    font-family: 'Lobster', cursive;
+
+}
+
+.player {
+    position:absolute;
+    left: 25%;
+    top: 90%;
+    transform: translate(-25%,0);
+    font-family: 'Lobster', cursive;
+}
+
+.computer {
+    position:absolute;
+    left: 75%;
+    top: 90%;
+    transform:translate(-25%,0);
+    font-family: 'Lobster', cursive;
+    
+}
+.daScore-Player {
+    text-align: center;
+}
+
+.daScore-Computer {
+    text-align: center;
+}
+
+section {
+    font-size: 50px;
+}
